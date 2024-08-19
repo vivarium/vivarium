@@ -1,0 +1,27 @@
+{
+    "description": "The Vivarium base application",
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luca Cantoreggi",
+            "email": "cantoreggi.luca@gmail.com"
+        }
+    ],
+    "require": {
+        "vivarium/kernel": "*",
+        "vivarium/core": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../core"
+        },
+        {
+            "type": "path",
+            "url": "../kernel"
+        }
+    ]
+}
